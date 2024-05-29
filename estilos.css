@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+
+/* body {
+    color: white;
+} */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #4F5D2F;
+    height: 58px;
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+}
+
+.titulo-pagina {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulo-pagina h2 {
+    font-family: 'Audiowide';
+    font-size: 2rem;
+}
+
+header img {
+    width: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2rem;
+    gap: 2rem;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: gray;
+}
+
+.user-img img{
+    width: 35px;
+}
