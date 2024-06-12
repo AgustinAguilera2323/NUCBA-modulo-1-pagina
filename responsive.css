@@ -1,0 +1,52 @@
+@media (max-width:1300px){
+    .usuario p {
+        display: none;
+    }
+}
+
+@media (max-width:1031px){
+    .hero-info {
+        width: 100%;
+    }
+
+    .hero-info p {
+        text-align: center;
+    }
+
+    .colores {
+        display: none;
+    }
+}
+
+@media (max-width:860px){
+    .navbar {
+        display: none;
+    }
+
+    .usuario p {
+        display: inline;
+    }
+
+    .titulo-pagina {
+        width: 80%;
+    }
+}
+
+@media (max-width:550px){
+    header{
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+}
+
+@media (max-width:500px){
+    .usuario p {
+        display: none;
+    }
+    .titulo-pagina {
+        width: 100%;
+    }
+    .titulo-pagina h2 {
+        font-size: 1.7rem;
+    }
+}
