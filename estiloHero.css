@@ -1,0 +1,81 @@
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 70%;
+    margin-bottom: 4rem;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    width: 50%;
+    /* height: 25rem; */
+}
+
+.hero-info h1 {
+    margin-top: 2rem;
+    font-size: 50px;
+    margin-bottom: 2.4rem;
+    color: #099da0;
+    text-shadow: 6px 6px 20px #282b30;
+}
+
+.hero-info p {
+    margin-left: 1.4rem;
+    width: 90%;
+    align-self: normal;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.hero-info button {
+    margin-left: 1.4rem;
+    align-self: normal;
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #007375;
+    box-shadow: 6px 6px 20px #282b30;
+    transition: transform 0.4s ease;
+}
+
+.hero-info button:hover {
+    transform: scale(0.9);
+}
+
+.hero-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27rem;
+    height: 27rem;
+    background: #424549;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 20px #282b30;
+}
+
+.card-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 24rem;
+    height: 24rem;
+    border: .5px solid black;
+}
+
+.card-img img {
+    width: 12rem;
+    transition: transform 0.5s ease;
+}
+
+.card-img img:hover {
+    transform: scale(1.05);
+}

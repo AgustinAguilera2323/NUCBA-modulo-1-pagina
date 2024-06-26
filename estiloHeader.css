@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1c1f;
+    height: 58px;
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+}
+
+.titulo-pagina {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulo-pagina h2 {
+    font-family: 'Audiowide';
+    font-size: 2rem;
+}
+
+header img {
+    width: 50px;
+}
+
+.navbar {
+    display: block;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2rem;
+    gap: 2rem;
+}
+
+.navbar a{
+    color: #adabab;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover{
+    color: #007375;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.user-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #424549;
+}
+
+.user-img img{
+    width: 35px;
+}

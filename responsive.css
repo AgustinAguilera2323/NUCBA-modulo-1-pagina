@@ -2,6 +2,21 @@
     .usuario p {
         display: none;
     }
+
+    #hero {
+        flex-direction: column;
+    }
+
+    .hero-info {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .hero-info button {
+        align-self: center;
+        margin-left: 0;
+    }
 }
 
 @media (max-width:1031px){
@@ -16,7 +31,16 @@
     .colores {
         display: none;
     }
+
+    .datos-contacto {
+        width: 80%;
+    }
+
+    .about-us p {
+        width: 80%;
+    }
 }
+
 
 @media (max-width:860px){
     .navbar {
@@ -30,12 +54,36 @@
     .titulo-pagina {
         width: 80%;
     }
+
+    .contact-img {
+        display: none;
+    }
+}
+
+@media (max-width:630px){
+    #hero {
+        width: 100%;
+    }
+
+    .datos-contacto {
+        width: 100%;
+    }
+
+    .hero-info {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width:550px){
     header{
         padding-left: .6rem;
         padding-right: .6rem;
+    }
+
+    .contact-container {
+        width: 90%;
     }
 }
 
@@ -48,5 +96,9 @@
     }
     .titulo-pagina h2 {
         font-size: 1.7rem;
+    }
+
+    .hero-card {
+        transform: scale(0.75);
     }
 }
